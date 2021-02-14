@@ -1,10 +1,14 @@
 {
-  "name": "react-storybook",
+  "name": "@willbackslash/react-storybook",
+  "files": ["./dist"],
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com/"
+  },
+  "repository": "git://github.com/willbackslash/react-storybook",
   "version": "0.1.0",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "source": "src/index.js",
-  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
